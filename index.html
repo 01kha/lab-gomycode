@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wanderlust Adventures</title>
+    <!-- Add CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Carousel section -->
+    <div class="carousel-container">
+      <div class="carousel">
+        <img
+          id="Beach-Paradise"
+          src="https://images.pexels.com/photos/1062021/pexels-photo-1062021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Image 1"
+        />
+        <img
+          id="Mountain-Retreat"
+          src="https://images.pexels.com/photos/3163927/pexels-photo-3163927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Image 2"
+        />
+        <img
+          id="City-Escapes"
+          src="https://images.pexels.com/photos/14993096/pexels-photo-14993096/free-photo-of-etats-unis-d-amerique-etats-unis-californie-san-francisco.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Image 3"
+        />
+
+        <img
+          id="Nature-Scenery"
+          src="https://images.pexels.com/photos/8808952/pexels-photo-8808952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Image 4"
+        />
+
+        <img
+          id="Urban-Landscape"
+          src="https://images.pexels.com/photos/16831251/pexels-photo-16831251/free-photo-of-escalier-ville-rue-marches.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Image 5"
+        />
+
+        <img
+          id="Sunset-View"
+          src="https://images.pexels.com/photos/16823627/pexels-photo-16823627/free-photo-of-ville-soleil-couchant-france-paris.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Image 6"
+        />
+      </div>
+      <button class="carousel-prev">Previous</button>
+      <button class="carousel-next">Next</button>
+    </div>
+
+    <!-- Main content section -->
+    <div class="main-content">
+      <h1>Welcome to Wanderlust Adventures</h1>
+      <p>Experience the world like never before.</p>
+      <p>
+        Discover amazing destinations, book your dream trip, and create
+        unforgettable memories.
+      </p>
+      <a href="destinations.html" class="btn">Explore Destinations</a>
+    </div>
+
+    <!-- Featured Destinations section -->
+    <div class="featured-destinations">
+      <h2>Featured Destinations</h2>
+      <div class="destination">
+        <img
+          src="https://static.vecteezy.com/ti/photos-gratuite/p2/7511055-ete-plage-paysage-luxe-vacances-et-vacances-concept-ete-voyage-banniere-paysage-panoramique-de-sunset-beach-deux-transats-parapluie-palmier-feuille-colore-coucher-de-soleil-ciel-pour-paradis-ile-vue-photo.jpg"
+          alt="Destination 1"
+        />
+        <h3>Beach Paradise</h3>
+        <p>Relax on beautiful sandy beaches and enjoy crystal-clear waters.</p>
+        <a href="destination1.html" class="btn">Learn More</a>
+      </div>
+      <div class="destination">
+        <img
+          src="https://assets.website-files.com/589215a57e34325c3af796b3/5c5225a923d641d50906dc2b_redmountain-banner-optimized.png"
+          alt="Destination 2"
+        />
+        <h3>Mountain Retreat</h3>
+        <p>
+          Escape to breathtaking mountain landscapes and enjoy outdoor
+          adventures.
+        </p>
+        <a href="destination2.html" class="btn">Learn More</a>
+      </div>
+      <!-- Add more destination cards here -->
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <p>&copy; 2023 Wanderlust Adventures. All rights reserved.</p>
+    </footer>
+
+    <form id="contact-form">
+      <div>
+        <label for="email">Adresse e-mail :</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="message">Message :</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <div>
+        <button type="submit">Envoyer</button>
+      </div>
+    </form>
+
+    <!-- Add JavaScript file for carousel functionality -->
+    <script src="carousel.js"></script>
+  </body>
+</html>
